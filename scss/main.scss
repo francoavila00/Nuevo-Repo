@@ -1,0 +1,18 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+@import "./header/header";
+@import "./Titulo/titulo";
+@import "./galeria/imagenes";
+@import "./footer/footer";
+@import "./formulario/form.scss";
+
+body {
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

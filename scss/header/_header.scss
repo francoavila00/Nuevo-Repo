@@ -1,0 +1,39 @@
+nav {
+  height: 75px;
+}
+
+.listaPadre {
+  background-color: black;
+}
+.listaPadre {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+  border-bottom: 2px solid goldenrod;
+  margin-right: 30px;
+}
+
+.listaPadre li {
+  border-radius: 3px;
+  margin: 5px 5px;
+  padding: 10px 10px;
+  transition-property: background;
+  transition-duration: 1s;
+}
+.listaPadre li:hover {
+  background: rgb(91, 84, 97);
+}
+
+.imagenNadapuesto {
+  height: 110px;
+  width: 110px;
+}
+
+.listaPadre li a {
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+  color: goldenrod;
+  text-transform: uppercase;
+}
