@@ -3,3 +3,6 @@
   background-color: black;
   text-align-last: center;
 }
+h1 {
+  @extend %tituloEstilo;
+}
