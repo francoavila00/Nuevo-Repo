@@ -19,7 +19,8 @@ nav {
   justify-content: space-between;
   box-sizing: border-box;
   border-bottom: 2px solid goldenrod;
-  margin-right: 30px; }
+  margin-right: 30px;
+  background-color: rgba(199, 221, 221, 0.604); }
 
 .listaPadre li {
   border-radius: 3px;
@@ -61,7 +62,7 @@ nav {
   object-fit: cover; }
 
 .footerFinal {
-  background-color: rgba(0, 0, 0, 0.365);
+  background-color: rgba(79, 25, 25, 0.365);
   margin-top: auto; }
 
 .instagramParrafo {
